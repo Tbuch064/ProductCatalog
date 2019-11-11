@@ -21,7 +21,7 @@ public class ProductTest {
         // I am making this test to fail
         Product aProduct = new Product("1", "DELL MONITOR", 180);
         Double expected = 180.0;
-        assertEquals("Check the price of the product", expected, aProduct.getPrice());
+        assertEquals(expected,180, aProduct.getPrice());
     }
 
 
